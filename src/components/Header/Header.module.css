@@ -1,0 +1,31 @@
+.HeaderText {
+  padding-top: 35vh;
+  padding-left: 10vw;
+  color: #FFC085;
+}
+
+li {
+  list-style: none;
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFC085;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #DD8B55;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0;
+  width: 460px;
+}
+
+h1:hover {
+    color: #DD8B55;
+}
