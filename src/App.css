@@ -1,5 +1,12 @@
 body {
-  font-family: "Londrina Solid", cursive;
-  background-color: #3c9099;
+  font-family: "Oswald", sans-serif;
+  background-color: var(--mainColor);
   box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #255957;
+  --secondaryColor: #f7c548;
+  --secondaryDark: #a98743;
+  --mainLightColor: #eeebd3;
 }

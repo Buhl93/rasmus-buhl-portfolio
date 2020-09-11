@@ -1,7 +1,11 @@
 .HeaderText {
   padding-top: 35vh;
   padding-left: 10vw;
-  color: #FFC085;
+  color: var(--secondaryColor);
+}
+
+.Name {
+  font-family: "Londrina Solid", cursive;
 }
 
 li {
@@ -12,20 +16,20 @@ li {
 
 a {
   text-decoration: none;
-  color: #FFC085;
+  color: var(--secondaryColor);
   font-weight: 500;
 }
 
 a:hover {
-  color: #DD8B55;
+  color: var(--secondaryDark);
 }
 
 h1 {
   font-size: 6rem;
   margin: 0;
-  width: 460px;
 }
 
-h1:hover {
-    color: #DD8B55;
+h2 {
+  font-size: 2.5rem;
 }
+

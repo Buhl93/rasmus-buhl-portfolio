@@ -8,14 +8,15 @@
 .MyWork {
   text-align: center;
   font-size: 3rem;
-  color: #ffc085;
+  color: var(--secondaryColor);
 }
 
 .Image {
-  height: 400px;
+  height: 300px;
   width: 600px;
-  transition: transform 0.4s;
+  transition: transform 0.2s;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .Image:hover {
@@ -25,6 +26,13 @@
 .DescriptiveText {
   height: 400px;
   width: 600px;
-  margin: 50px 0 0 0;
+  padding-right: 50px;
   font-size: 1.5rem;
+  color: var(--mainLightColor);
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 0;
+  color: var(--mainLightColor);
 }
