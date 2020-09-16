@@ -1,0 +1,31 @@
+.NavBar {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  width: 33%;
+}
+
+.NavItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60px; 
+  backdrop-filter: blur(8px);
+  border: 2px solid white;
+}
+
+.NavItems li {
+  font-size: 2.3rem;
+  color: white;
+  z-index: 10;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+  list-style: none;
+}
+
+
+.NavItems li:hover {
+  transform: translateY(-4px);
+}

@@ -1,0 +1,108 @@
+.Card {
+  margin: 100px;
+  margin-top: 6%;
+  height: 700px;
+  width: 500px;
+  background-color: var(--mainDarkColor);
+  box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
+  animation: shadowRemove 0.3s forwards;
+  font-family: sans-serif;
+  filter: grayscale(100%);
+}
+
+.Card:hover {
+  transform: translateY(-10px);
+  animation: shadowExpand 0.3s forwards;
+  filter: grayscale(0);
+}
+
+.Image {
+  height: 250px;
+  width: 500px;
+  cursor: pointer;
+}
+
+.GitWeb {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 10px;
+}
+
+.GitWebButtons button {
+  width: 50%;
+  height: 8%;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+}
+
+.GitWebButtons :nth-child(2) {
+  right: 0;
+}
+
+.GitWebButtons button:hover {
+}
+
+.TechsLayout {
+  color: var(--mainLightColor);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.Features {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Features li {
+  font-size: 1rem;
+  border: 1px solid var(--mainLightColor);
+  padding: 3px 6px 3px 6px;
+  font-weight: 500;
+  color: var(--mainLightColor);
+  opacity: 0.7;
+  list-style: none;
+  margin: 10px 5px 0 5px;
+}
+
+.TextField {
+  width: 85%;
+  height: 30%;
+  border: 1px solid var(--mainLightColor);
+  opacity: 0.7;
+  margin: 20px auto 20px auto;
+  padding: 15px 30px;
+  overflow-y: auto;
+}
+
+.TextField p {
+  color: var(--mainLightColor);
+  font-size: 1.3rem;
+}
+
+@keyframes shadowExpand {
+  from {
+    box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.4);
+  }
+  to {
+    box-shadow: 0px 20px 20px 4px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes shadowRemove {
+  from {
+    box-shadow: 0px 20px 20px 4px rgba(0, 0, 0, 0.4);
+  }
+  to {
+    box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.4);
+  }
+}

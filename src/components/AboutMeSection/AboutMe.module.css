@@ -1,9 +1,7 @@
-.MyWorkContainer {
-  display: flex;
+.AboutMeContainer {
+  width: 70vw;
   height: 100vh;
-  width: auto;
-  backdrop-filter: grayscale(100%) blur(8px) brightness(60%);
-  margin-left: 100vw;
+  backdrop-filter: blur(8px) hue-rotate(60deg);
 }
 
 .LeftSideLine {
@@ -15,15 +13,6 @@
   left: 0;
 }
 
-.RightSideLine {
-  width: 5px;
-  height: 100vh;
-  background-color: var(--mainTextColor);
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 .HeadLine {
   height: fit-content;
   width: 250px;
@@ -33,11 +22,5 @@
   top: 36%;
   left: 0;
   color: var(--mainTextColor);
-  font-family: 'Cabin Sketch', cursive;
+  font-family: "Cabin Sketch", cursive;
 }
-
-.Row {
-  display: flex;
-}
-
-
