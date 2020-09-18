@@ -1,7 +1,8 @@
 .AboutMeContainer {
-  width: 70vw;
+  width: 60vw;
   height: 100vh;
-  backdrop-filter: blur(8px) hue-rotate(60deg);
+  backdrop-filter: blur(8px) hue-rotate(60deg) brightness(50%);
+  font-family: sans-serif;
 }
 
 .LeftSideLine {
@@ -24,3 +25,27 @@
   color: var(--mainTextColor);
   font-family: "Cabin Sketch", cursive;
 }
+
+.Layout {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 7%;
+}
+
+.Circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background-color: aquamarine;
+  margin: auto;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.Layout p {
+  color: var(--mainTextColor);
+  font-size: 1.7rem;
+}
+
