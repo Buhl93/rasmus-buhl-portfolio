@@ -10,7 +10,7 @@ export default function Header() {
       <div className={classes.HeaderText}>
         <h1 className={classes.Name}>Rasmus Buhl</h1>
         <h2 className={classes.Tag}>
-          Developer <span>&</span> Designer
+          Web Developer <span>&</span> Designer
         </h2>
       </div>
     </div>

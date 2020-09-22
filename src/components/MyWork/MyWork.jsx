@@ -11,7 +11,11 @@ export default function MyWork(props) {
     <div className={classes.MyWorkContainer}>
       <div className={classes.LeftSideLine}></div>
       <div className={classes.Row}>
+        <a name="MyWork">
+          <div id="MyWork"></div>
+        </a>
         <h2 className={classes.HeadLine}>My Work</h2>
+
         <YahtzeeGame yahtzeeCardToggle={props.yahtzeeCardToggle} />
         <YahtzeeGame yahtzeeCardToggle={props.yahtzeeCardToggle} />
         <YahtzeeGame yahtzeeCardToggle={props.yahtzeeCardToggle} />

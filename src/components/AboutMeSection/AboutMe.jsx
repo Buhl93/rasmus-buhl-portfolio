@@ -5,6 +5,9 @@ export default function AboutMe() {
   return (
     <div className={classes.AboutMeContainer}>
       <div className={classes.LeftSideLine}></div>
+      <a name="AboutMe">
+        <div id="AboutMe"></div>
+      </a>
       <h2 className={classes.HeadLine}>About Me</h2>
       <div className={classes.Layout}>
         <div className={classes.Circle}></div>
