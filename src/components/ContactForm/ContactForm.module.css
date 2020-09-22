@@ -80,3 +80,8 @@ input[type="email"] {
   transform: translateY(-5px);
   filter: brightness(80%);
 }
+
+.SpamFilter {
+  height: 100px;
+  width: 300px;
+}

@@ -81,7 +81,7 @@ export default class ContactForm extends Component {
               onChange={this.handleMessageChange}
             />
           </div>
-          <div>
+          <div className={classes.SpamFilter}>
             <div data-netlify-recaptcha="true"></div>
           </div>
           <div className={classes.Button}>
