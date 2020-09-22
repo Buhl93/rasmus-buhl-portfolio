@@ -40,13 +40,18 @@ export default class ContactForm extends Component {
           <div id="ContactMe"></div>
         </a>
         <h2 className={classes.HeadLine}>Contact Me</h2>
-        <form name='contact' className={classes.Form} method="POST" data-netlify="true">
+        <form
+          className={classes.Form}
+          name="contact"
+          method="post"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className={classes.Input}>
             <label>Name</label>
             <input
               type="text"
               name="name"
-              id="name"
               value={this.state.Name}
               onChange={this.handleNameChange}
             />
@@ -56,7 +61,6 @@ export default class ContactForm extends Component {
             <input
               type="email"
               name="email"
-              id="email"
               value={this.state.Email}
               onChange={this.handleEmailChange}
             />
@@ -66,7 +70,6 @@ export default class ContactForm extends Component {
             <input
               type="text"
               name="company"
-              id="company"
               value={this.state.Company}
               onChange={this.handleCompanyChange}
             />
@@ -76,7 +79,6 @@ export default class ContactForm extends Component {
             <textarea
               type="text"
               name="message"
-              id="message"
               value={this.state.Message}
               onChange={this.handleMessageChange}
             />
@@ -85,7 +87,7 @@ export default class ContactForm extends Component {
             <div data-netlify-recaptcha="true"></div>
           </div>
           <div className={classes.Button}>
-            <button>Send</button>
+            <button type='submit'>Send</button>
           </div>
         </form>
         <div className={classes.RightSideLine}></div>
