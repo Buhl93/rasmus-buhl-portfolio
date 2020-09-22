@@ -40,7 +40,7 @@ export default class ContactForm extends Component {
           <div id="ContactMe"></div>
         </a>
         <h2 className={classes.HeadLine}>Contact Me</h2>
-        <form className={classes.Form} method="POST" data-netlify="true">
+        <form name='contact' className={classes.Form} method="POST" data-netlify="true">
           <div className={classes.Input}>
             <label>Name</label>
             <input
