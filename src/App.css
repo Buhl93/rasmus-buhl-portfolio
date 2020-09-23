@@ -5,19 +5,20 @@
 }
 
 body {
-  font-family: 'Reenie Beanie', cursive;
-  
+  font-family: "Reenie Beanie", cursive;
 }
 
 :root {
   --backgroundColor: #28293b;
-  --mainColor: #69585F;
+  --mainColor: #69585f;
   --secondaryColor: white;
   --secondaryDark: #a98743;
   --mainLightColor: white;
   --mainDarkColor: #2d3138;
   --mainTextColor: white;
-  --yahtzeeColor: #9C446D;
+  --black: black;
+  --white: white;
+  --yahtzeeColor: #9c446d;
   --yahtzeeColor2: #489997;
   --yahtzeeColor3: #803859;
 }

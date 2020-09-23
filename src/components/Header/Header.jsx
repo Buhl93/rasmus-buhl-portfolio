@@ -13,6 +13,7 @@ export default function Header() {
           Web Developer <span>&</span> Designer
         </h2>
       </div>
+      
     </div>
   );
 }

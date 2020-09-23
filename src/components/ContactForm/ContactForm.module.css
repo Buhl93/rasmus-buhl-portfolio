@@ -83,3 +83,24 @@ input[type="email"] {
 
 .SpamFilter {
 }
+
+.AddInfo {
+  color: var(--mainTextColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  
+}
+
+.AddInfo p {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AddInfo i {
+  font-size: 2rem;
+  margin-right: 10px;
+}

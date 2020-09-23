@@ -62,7 +62,7 @@ export default function YahtzeeGame(props) {
 
         <div className={classes.GitWebButtons}>
           <a href="https://github.com/Buhl93/yahtzee-game" target="_blank">
-            Git
+            Code
           </a>
           <a href="https://clever-mcnulty-472ab7.netlify.app/" target="_blank">
             Site

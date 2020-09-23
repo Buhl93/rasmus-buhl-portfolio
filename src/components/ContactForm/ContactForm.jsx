@@ -87,9 +87,14 @@ export default class ContactForm extends Component {
             <div data-netlify-recaptcha="true"></div>
           </div>
           <div className={classes.Button}>
-            <button type='submit'>Send</button>
+            <button type="submit">Send</button>
           </div>
+          <div className={classes.AddInfo}>
+          <p><i class="las la-phone"></i> +45 61 85 40 60</p>
+          <p><i class="lar la-envelope"></i> buhl.jakobsen@gmail.com</p>
+        </div>
         </form>
+        
         <div className={classes.RightSideLine}></div>
       </div>
     );
