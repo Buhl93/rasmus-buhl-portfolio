@@ -3,6 +3,8 @@ import ShoppingImg from "../../assets/images/Shopping.jpg";
 import BurgerImg from "../../assets/images/Burger.jpg";
 
 import YahtzeeGame from "./Projects/YahtzeeGame/YahtzeeGame";
+import BarberShop from "./Projects/BarberShop/BarberShop";
+import TreasureHunt from "./Projects/TreasureHunt/TreasureHunt";
 
 import classes from "./MyWork.module.css";
 
@@ -17,8 +19,8 @@ export default function MyWork(props) {
         <h2 className={classes.HeadLine}>My Work</h2>
 
         <YahtzeeGame yahtzeeCardToggle={props.yahtzeeCardToggle} />
-        <YahtzeeGame yahtzeeCardToggle={props.yahtzeeCardToggle} />
-        <YahtzeeGame yahtzeeCardToggle={props.yahtzeeCardToggle} />
+        <BarberShop />
+        <TreasureHunt />
       </div>
       <div className={classes.RightSideLine}></div>
     </div>
