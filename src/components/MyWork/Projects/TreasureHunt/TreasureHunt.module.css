@@ -79,7 +79,7 @@
   transition: transform 0.3s;
   border-radius: 0 0 0 10px;
   box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.3);
-  opacity: 100%;
+  opacity: 1;
 }
 
 .GitWebButtons a:nth-child(2) {
