@@ -11,7 +11,7 @@ export default function BarberShop(props) {
 
       <div className={classes.Card}>
         <div className={classes.Scrollabe}>
-          <a href="https://pedantic-morse-446d70.netlify.app" target="_blank">
+          <a href="https://epic-wing-92008b.netlify.app" target="_blank">
             <img
               src={TreasureHuntImg}
               alt="Yatze"
@@ -60,10 +60,10 @@ export default function BarberShop(props) {
         </div>
 
         <div className={classes.GitWebButtons}>
-          <a href="" target="_blank">
+          <a href="https://github.com/Buhl93/TreasureHunt" target="_blank">
             Code
           </a>
-          <a href="https://pedantic-morse-446d70.netlify.app" target="_blank">
+          <a href="https://epic-wing-92008b.netlify.app" target="_blank">
             Site
           </a>
         </div>
