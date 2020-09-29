@@ -13,11 +13,11 @@
 }
 
 .Layout {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
 }
 
 .Scrollabe {
@@ -38,7 +38,7 @@ margin-top: 3%;
 .HeadLine {
   color: var(--mainTextColor);
   font-size: 3rem;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: "Cabin Sketch", cursive;
 }
 
 .Card:hover {
@@ -62,6 +62,10 @@ margin-top: 3%;
   color: var(--mainTextColor);
 }
 
+.GitWebButtons {
+  z-index: 200;
+}
+
 .GitWebButtons a {
   width: 50%;
   height: 7%;
@@ -78,7 +82,7 @@ margin-top: 3%;
   text-decoration: none;
   transition: transform 0.3s;
   border-radius: 0 0 0 10px;
-  box-shadow: 0 -10px 10px rgba(0,0,0, 0.3);
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.3);
   opacity: 100%;
 }
 
@@ -86,7 +90,6 @@ margin-top: 3%;
   right: 0;
   background-color: var(--yahtzeeColor2);
   border-radius: 0 0 10px 0;
-  
 }
 
 .GitWebButtons a:hover {
@@ -136,7 +139,6 @@ margin-top: 3%;
 
 .SpaceBottom {
   height: 100px;
-
 }
 
 @keyframes shadowExpand {
@@ -156,4 +158,3 @@ margin-top: 3%;
     box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.4);
   }
 }
-
