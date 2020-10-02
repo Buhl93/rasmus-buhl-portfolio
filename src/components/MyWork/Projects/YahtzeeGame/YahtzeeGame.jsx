@@ -38,26 +38,47 @@ export default function YahtzeeGame(props) {
           <p className={classes.Info}>Scroll for more info</p>
           <div className={classes.TextArea}>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a ssentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a  a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a ssentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a
+              <div className={classes.Icon}>
+                <i className="las la-lightbulb"></i>
+              </div>
+              This game was created since my girlfriend and I love to compete
+              over a game of Yahtzee. This inspired me to create a version we
+              could easily play everywhere without the use of dice. This is also
+              why it is primarily designed to be used on a phone. <br />
+              <br />
+              <div className={classes.Icon}>
+                <i class="las la-cogs"></i>
+              </div>
+              For the same reason logic for the scoreboard has been created in
+              order for it to work as seamlessly as possible. I reckoned that
+              manually typing in scores was cumbersome, so I made it autodetect
+              what has been rolled.
+              <br />
+              <br />
+              <div className={classes.Icon}>
+                <i class="las la-dice"></i>
+              </div>
+              The user simply has to choose the dice he/she wants to save, and
+              when done, the user just clicks/taps the box in the scoreborad
+              he/she wants to score.
+              <br />
+              <br />
+              It is also possible to delete an input if misplaced. As is it
+              possible to cross a box if no score is available from the dice
+              rolled. <br />
+              <br />
+              <div className={classes.Icon}>
+                <i class="las la-hourglass-half"></i>
+              </div>
+              Future functionalities:
+              <br />
+              - Tutorial section.
+              <br />
+              - Game rules section.
+              <br />- Super Yahtzee scoreboard modifications.
             </p>
           </div>
-          <div className={classes.SpaceBottom}>
-          </div>
+          <div className={classes.SpaceBottom}></div>
         </div>
 
         <div className={classes.GitWebButtons}>

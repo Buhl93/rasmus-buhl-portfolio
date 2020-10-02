@@ -2,7 +2,7 @@
   width: 60vw;
   height: 100vh;
   backdrop-filter: blur(8px) hue-rotate(60deg) brightness(50%);
-  font-family: sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .LeftSideLine {

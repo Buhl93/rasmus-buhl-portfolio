@@ -3,6 +3,7 @@
   height: 100vh;
   font-family: sans-serif;
   backdrop-filter: blur(8px) brightness(70%);
+  font-family: 'PT Sans', sans-serif;
 }
 
 .Form {

@@ -24,36 +24,41 @@ export default function BarberShop(props) {
             <i class="lab la-js-square"></i>
             <i class="lab la-css3-alt"></i>
             <i class="lab la-html5"></i>
-            <i class="lab la-react"></i>
+            <i class="lab la-sass"></i>
           </div>
           <div>
             <ul className={classes.Features}>
-              <li>Responsive</li>
-              <li>Automatic Scoreboard</li>
-              <li>Dark Mode</li>
-              <li>2 Game Modes</li>
-              <li>Local Multiplayer</li>
+              <li>Mobile First</li>
+              <li>One page feeling</li>
+              <li>Combines with Real World</li>
+              <li>Escape Room</li>
             </ul>
           </div>
           <p className={classes.Info}>Scroll for more info</p>
           <div className={classes.TextArea}>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a ssentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a ssentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a
+              <div className={classes.Icon}>
+                <i class="las la-skull"></i>
+              </div>
+              This was built as part of a birthday present. My brother and I
+              love escape rooms, mystery and puzzles, so I decided to create my
+              own escape room / treasure hunt for him and his girlfriend. <br />
+              <br />
+              <div className={classes.Icon}>
+                <i class="las la-map"></i>
+              </div>
+              This site served as a tool where they would input the answers to
+              different riddles layed out in the real world. Whitch means that
+              it only works in relation to those riddles I made. The website is
+              simple - inputting the right answer and a message appears, leading
+              on to the next part of the treasure hunt. <br />
+              <br />
+              <div className={classes.Icon}>
+                <i class="las la-puzzle-piece"></i>
+              </div>
+              Answers: <br /> - House (XXX) = 30
+              <br /> - Key (?) = En tryllenøgle
+              <br /> - Dice = 189
             </p>
           </div>
           <div className={classes.SpaceBottom}></div>

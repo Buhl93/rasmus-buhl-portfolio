@@ -39,6 +39,7 @@
   color: var(--mainTextColor);
   font-size: 3rem;
   font-family: "Cabin Sketch", cursive;
+  cursor: default;
 }
 
 .Card:hover {

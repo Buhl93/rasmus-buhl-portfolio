@@ -12,9 +12,14 @@ export default function AboutMe() {
       <div className={classes.Layout}>
         <div className={classes.Circle}></div>
         <p>
-Mit navn er Rasmus, jeg er 27 år gammel og er bosat i København.
-Jeg er en ambitiøs Frontend udvikler der har fokus på eksekvering, godt design og brugervenlighed. 
-Nogle af mine projekter kan ses på denne side, jeg håber du synes om dem.
+          Hi, I’m Rasmus. <br />
+          <br /> I am a passionate web developer and designer currently located
+          in Copenhagen, Denmark. <br />
+          <br /> I focus on creating creative designs and thought through user
+          experiences. <br />
+          <br /> Feel free to take a look at some of my projects and please
+          contact me if you would like to know more or if you have any
+          questions.
         </p>
       </div>
     </div>

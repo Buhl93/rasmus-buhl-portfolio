@@ -13,15 +13,15 @@ export default function Header() {
           Web Developer <span>&</span> Designer
         </h2>
       </div>
-      
-    </div>
-  );
-}
-/* Mirror Effect
-<div className={classes.HeaderTextMirror}>
+      <div className={classes.HeaderTextMirror}>
         <h1 className={classes.NameMirror}>Rasmus Buhl</h1>
         <h2 className={classes.TagMirror}>
           Developer <span>&</span> Designer
         </h2>
       </div>
+    </div>
+  );
+}
+/* Mirror Effect
+
 */
