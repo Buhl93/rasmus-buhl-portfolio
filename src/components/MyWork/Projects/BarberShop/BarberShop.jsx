@@ -28,32 +28,41 @@ export default function BarberShop(props) {
           </div>
           <div>
             <ul className={classes.Features}>
-              <li>Responsive</li>
-              <li>Automatic Scoreboard</li>
-              <li>Dark Mode</li>
-              <li>2 Game Modes</li>
-              <li>Local Multiplayer</li>
+              <li>Clean design</li>
+              <li>Booking System mockup</li>
+              <li>Dark tones</li>
+              <li>Stylized presentation</li>
             </ul>
           </div>
           <p className={classes.Info}>Scroll for more info</p>
           <div className={classes.TextArea}>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a ssentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a ssentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, a
+              <div className={classes.Icon}>
+                <i className="las la-cut"></i>
+              </div>
+              This is my take on a website for a barbershop. The idea was to
+              create a website for a place that wants to radiate a down to earth
+              and cool atmosphere. <br />
+              <br />
+              <div className={classes.Icon}>
+                <i className="las la-spray-can"></i>
+              </div>
+              The tones are dark and underplayed. Very simple and designed with
+              not too much going on or too many distractions.
+              <br />
+              <br />
+              <div className={classes.Icon}>
+                <i className="las la-coffee"></i>
+              </div>
+              Hopefully the site gives the sense of professionalism, quality and
+              a love for the old way of doing things.
+              <br />
+              <br />
+              <div className={classes.Icon}>
+                <i className="las la-shower"></i>
+              </div>
+              Future functionalities:
+              <br /> - Responsive design
             </p>
           </div>
           <div className={classes.SpaceBottom}></div>

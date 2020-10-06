@@ -18,7 +18,7 @@ export default function MyWork(props) {
         </a>
         <h2 className={classes.HeadLine}>My Work</h2>
 
-        <YahtzeeGame yahtzeeCardToggle={props.yahtzeeCardToggle} />
+        <YahtzeeGame />
         <BarberShop />
         <TreasureHunt />
       </div>

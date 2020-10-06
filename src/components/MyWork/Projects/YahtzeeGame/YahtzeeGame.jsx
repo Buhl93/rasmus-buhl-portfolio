@@ -12,12 +12,7 @@ export default function YahtzeeGame(props) {
       <div className={classes.Card}>
         <div className={classes.Scrollabe}>
           <a href="https://clever-mcnulty-472ab7.netlify.app/" target="_blank">
-            <img
-              src={YatzeImg}
-              alt="Yatze"
-              className={classes.Image}
-              onClick={props.yahtzeeCardToggle}
-            />
+            <img src={YatzeImg} alt="Yatze" className={classes.Image} />
           </a>
 
           <div className={classes.TechsLayout}>
@@ -49,7 +44,7 @@ export default function YahtzeeGame(props) {
               <div className={classes.Icon}>
                 <i class="las la-cogs"></i>
               </div>
-              For the same reason logic for the scoreboard has been created in
+              Logic for the scoreboard was created in
               order for it to work as seamlessly as possible. I reckoned that
               manually typing in scores was cumbersome, so I made it autodetect
               what has been rolled.
@@ -58,9 +53,9 @@ export default function YahtzeeGame(props) {
               <div className={classes.Icon}>
                 <i class="las la-dice"></i>
               </div>
-              The user simply has to choose the dice he/she wants to save, and
+              The user simply has to click/tap on the dice one wants to save, and
               when done, the user just clicks/taps the box in the scoreborad
-              he/she wants to score.
+              that should be scored.
               <br />
               <br />
               It is also possible to delete an input if misplaced. As is it

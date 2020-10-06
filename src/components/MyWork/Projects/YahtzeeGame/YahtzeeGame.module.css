@@ -34,7 +34,7 @@
   margin-top: 30px;
   border: 1px solid var(--mainTextColor);
   padding: 20px 40px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .Icon {
@@ -57,7 +57,7 @@
 
 .Image {
   height: 500px;
-  width: 1000px;
+  width: 100%;
   cursor: pointer;
   border-radius: 10px 10px 0 0;
   box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
@@ -131,20 +131,6 @@
   margin: 10px 5px 0 5px;
 }
 
-.TextField {
-  width: 85%;
-  height: 30%;
-  border: 1px solid var(--mainLightColor);
-  opacity: 0.7;
-  margin: 20px auto 20px auto;
-  padding: 15px 30px;
-  overflow-y: auto;
-}
-
-.TextField p {
-  color: var(--mainLightColor);
-  font-size: 1.3rem;
-}
 
 .SpaceBottom {
   height: 100px;
@@ -165,5 +151,23 @@
   }
   to {
     box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  .Card {
+    width: 90vw;
+    margin: 50px;
+    margin-top: 20px;
+  }
+  .Image {
+    height: 25vh;
+    width: 100%;
+  }
+  .TextArea {
+    width: 90%;
+    margin-top: 30px;
+    padding: 5px 20px;
+    font-size: 1.3rem;
   }
 }

@@ -1,5 +1,6 @@
 import classes from "./AboutMe.module.css";
 import React from "react";
+import portrait from "../../assets/images/portrait3.jpg";
 
 export default function AboutMe() {
   return (
@@ -10,7 +11,7 @@ export default function AboutMe() {
       </a>
       <h2 className={classes.HeadLine}>About Me</h2>
       <div className={classes.Layout}>
-        <div className={classes.Circle}></div>
+        <img className={classes.Circle} src={portrait} alt="portrait" />
         <p>
           Hi, I’m Rasmus. <br />
           <br /> I am a passionate web developer and designer currently located

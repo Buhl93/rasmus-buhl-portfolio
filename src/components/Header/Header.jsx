@@ -16,7 +16,7 @@ export default function Header() {
       <div className={classes.HeaderTextMirror}>
         <h1 className={classes.NameMirror}>Rasmus Buhl</h1>
         <h2 className={classes.TagMirror}>
-          Developer <span>&</span> Designer
+          Web Developer <span>&</span> Designer
         </h2>
       </div>
     </div>

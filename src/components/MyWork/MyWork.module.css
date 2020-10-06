@@ -33,11 +33,12 @@
   top: 36%;
   left: 0;
   color: var(--mainTextColor);
-  font-family: 'Cabin Sketch', cursive;
+  font-family: "Cabin Sketch", cursive;
 }
 
 .Row {
   display: flex;
 }
 
-
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+}

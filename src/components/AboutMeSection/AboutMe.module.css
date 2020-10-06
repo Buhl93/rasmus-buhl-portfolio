@@ -2,7 +2,7 @@
   width: 60vw;
   height: 100vh;
   backdrop-filter: blur(8px) hue-rotate(60deg) brightness(50%);
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .LeftSideLine {
@@ -35,12 +35,11 @@
 }
 
 .Circle {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 100%;
-  background-color: aquamarine;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   overflow: hidden;
 }
 
@@ -49,3 +48,16 @@
   font-size: 1.7rem;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  .AboutMeContainer {
+    width: 150vw;
+  }
+
+  .Layout {
+    width: 55%;
+    margin-left: 40%;
+  }
+  .Layout p {
+    font-size: 1.3rem;
+  }
+}
