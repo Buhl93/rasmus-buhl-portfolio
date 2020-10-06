@@ -8,7 +8,8 @@
   width: 100vw;
   z-index: -10;
   position: relative;
-  filter: contrast(120%);
+  -webkit-filter: contrast(120%);
+          filter: contrast(120%);
 }
 
 .HeaderText {
@@ -26,7 +27,8 @@ h1 {
 
 .Name {
   opacity: 0;
-  animation: decent 3s ease-out forwards;
+  -webkit-animation: decent 3s ease-out forwards;
+          animation: decent 3s ease-out forwards;
 }
 
 .Tag {
@@ -34,14 +36,17 @@ h1 {
   margin: 0;
   text-align: center;
   opacity: 0;
-  animation: decent 3s 1s ease-out forwards;
+  -webkit-animation: decent 3s 1s ease-out forwards;
+          animation: decent 3s 1s ease-out forwards;
 }
+
 .Tag span {
   font-size: 4rem;
 }
 
 .HeaderTextMirror {
-  transform: scaleY(-1) translateY(-350px);
+  -webkit-transform: scaleY(-1) translateY(-350px);
+          transform: scaleY(-1) translateY(-350px);
   position: absolute;
   top: 35%;
   left: 10%;
@@ -55,8 +60,10 @@ h1 {
   color: transparent;
   text-shadow: 0px 0px 7px white;
   opacity: 0;
-  animation: ascent 3s 1s ease-out forwards;
+  -webkit-animation: ascent 3s 1s ease-out forwards;
+          animation: ascent 3s 1s ease-out forwards;
 }
+
 .TagMirror span {
   font-size: 4rem;
 }
@@ -65,27 +72,58 @@ h1 {
   color: transparent;
   text-shadow: 0px 10px 17px white;
   opacity: 0;
-  animation: ascent 3s ease-out forwards;
+  -webkit-animation: ascent 3s ease-out forwards;
+          animation: ascent 3s ease-out forwards;
+}
+
+@-webkit-keyframes decent {
+  from {
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 @keyframes decent {
   from {
-    transform: translateY(-70px);
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
     opacity: 0;
   }
   to {
-    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes ascent {
+  from {
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 0.3;
   }
 }
 
 @keyframes ascent {
   from {
-    transform: translateY(-70px);
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
     opacity: 0;
   }
   to {
-    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
     opacity: 0.3;
   }
 }
@@ -94,26 +132,25 @@ h1 {
   .HeaderText {
     top: 20%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     z-index: -1;
   }
-
   h1 {
     font-size: 8rem;
   }
-
   .Tag {
     font-size: 2rem;
   }
   .Tag span {
     font-size: 3rem;
   }
-
   .HeaderTextMirror {
     display: none;
   }
-
   .Bg {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
+/*# sourceMappingURL=Header.module.css.map */

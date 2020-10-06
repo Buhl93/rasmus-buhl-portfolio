@@ -1,20 +1,25 @@
-
-
-
 .Phone {
-    transition: transform 0.2s;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .Phone:hover {
-transform: translateX(-78%);
+  -webkit-transform: translateX(-78%);
+          transform: translateX(-78%);
 }
 
 .Email {
-    transition: transform 0.2s;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .Email:hover {
-transform: translateX(-78%);
+  -webkit-transform: translateX(-78%);
+          transform: translateX(-78%);
 }
 
 .ContactLabels {
@@ -25,12 +30,19 @@ transform: translateX(-78%);
 }
 
 .Contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 60px;
-  backdrop-filter: blur(3px) brightness(0%);
+  -webkit-backdrop-filter: blur(3px) brightness(0%);
+          backdrop-filter: blur(3px) brightness(0%);
   border: 2px solid white;
   border-left: none;
   border-radius: 0 10px 10px 0;
@@ -38,16 +50,11 @@ transform: translateX(-78%);
   color: var(--mainTextColor);
   font-size: 1.5rem;
   padding: 0 20px 0 20px;
-  transform: translateX(-80%);
-
+  -webkit-transform: translateX(-80%);
+          transform: translateX(-80%);
 }
 
 .Contact i {
   font-size: 3rem;
 }
-
-
-
-
-
-
+/*# sourceMappingURL=ContactLabels.module.css.map */

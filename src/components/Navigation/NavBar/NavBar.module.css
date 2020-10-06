@@ -3,16 +3,24 @@
   top: 20px;
   right: 40px;
   width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .NavItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 60px;
-  backdrop-filter: blur(3px) brightness(80%);
+  -webkit-backdrop-filter: blur(3px) brightness(80%);
+          backdrop-filter: blur(3px) brightness(80%);
   border: 2px solid white;
   border-radius: 10px;
 }
@@ -22,7 +30,10 @@
   z-index: 10;
   font-weight: bold;
   cursor: pointer;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
   list-style: none;
 }
 
@@ -32,14 +43,22 @@
 }
 
 .NavItems li:hover {
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
 }
 
 .Profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  backdrop-filter: blur(3px) brightness(80%);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-backdrop-filter: blur(3px) brightness(80%);
+          backdrop-filter: blur(3px) brightness(80%);
   border: 2px solid white;
   border-radius: 10px;
   margin-right: 40px;
@@ -50,12 +69,16 @@
   font-size: 2.5rem;
   z-index: 10;
   cursor: pointer;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
   list-style: none;
 }
 
 .Profiles li:hover {
-  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
 }
 
 .Profiles li a {
@@ -68,3 +91,4 @@
     display: none;
   }
 }
+/*# sourceMappingURL=NavBar.module.css.map */

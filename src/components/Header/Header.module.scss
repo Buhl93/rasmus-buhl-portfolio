@@ -1,0 +1,119 @@
+.HeaderContainer {
+  height: 100vh;
+  width: 100vw;
+}
+
+.Bg {
+  height: 100vh;
+  width: 100vw;
+  z-index: -10;
+  position: relative;
+  filter: contrast(120%);
+}
+
+.HeaderText {
+  color: var(--mainTextColor);
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 8rem;
+  margin: 0;
+}
+
+.Name {
+  opacity: 0;
+  animation: decent 3s ease-out forwards;
+}
+
+.Tag {
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+  opacity: 0;
+  animation: decent 3s 1s ease-out forwards;
+}
+.Tag span {
+  font-size: 4rem;
+}
+
+.HeaderTextMirror {
+  transform: scaleY(-1) translateY(-350px);
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  z-index: -1;
+}
+
+.TagMirror {
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+  color: transparent;
+  text-shadow: 0px 0px 7px white;
+  opacity: 0;
+  animation: ascent 3s 1s ease-out forwards;
+}
+.TagMirror span {
+  font-size: 4rem;
+}
+
+.NameMirror {
+  color: transparent;
+  text-shadow: 0px 10px 17px white;
+  opacity: 0;
+  animation: ascent 3s ease-out forwards;
+}
+
+@keyframes decent {
+  from {
+    transform: translateY(-70px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes ascent {
+  from {
+    transform: translateY(-70px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 0.3;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  .HeaderText {
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+
+  .Tag {
+    font-size: 2rem;
+  }
+  .Tag span {
+    font-size: 3rem;
+  }
+
+  .HeaderTextMirror {
+    display: none;
+  }
+
+  .Bg {
+    object-fit: cover;
+  }
+}

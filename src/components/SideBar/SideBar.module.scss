@@ -1,0 +1,32 @@
+.SideBar {
+  height: 100vh;
+  width: 60vw;
+  background-image: linear-gradient(40deg, black 0%, #632b1c 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.3s ease-out;
+  z-index: 200;
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Close {
+  transform: translateX(100%);
+}
+
+.SideBar a {
+  color: var(--mainTextColor);
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: 20px 0 0 20px;
+}
+
+.Links {
+  margin-top: 40px;
+}

@@ -2,8 +2,7 @@
   width: 70vw;
   height: 100vh;
   font-family: sans-serif;
-  -webkit-backdrop-filter: blur(8px) brightness(70%);
-          backdrop-filter: blur(8px) brightness(70%);
+  backdrop-filter: blur(8px) brightness(70%);
   font-family: "PT Sans", sans-serif;
 }
 
@@ -15,13 +14,10 @@
 }
 
 .HeadLine {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   width: 250px;
   font-size: 3rem;
-  -webkit-transform: rotate(-90deg) scale(3.5);
-          transform: rotate(-90deg) scale(3.5);
+  transform: rotate(-90deg) scale(3.5);
   position: relative;
   top: 46%;
   left: 2%;
@@ -30,19 +26,10 @@
 }
 
 .Input {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .Input label {
@@ -85,45 +72,28 @@ input[type="email"] {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
   border-radius: 5px;
 }
 
 .Button button:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-  -webkit-filter: brightness(80%);
-          filter: brightness(80%);
+  transform: translateY(-5px);
+  filter: brightness(80%);
 }
 
 .AddInfo {
   color: var(--mainTextColor);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 1.2rem;
 }
 
 .AddInfo p {
   margin: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .AddInfo i {
@@ -140,6 +110,7 @@ input[type="email"] {
     margin-left: 30%;
     margin-top: 0;
   }
+
   .HeadLine {
     font-size: 2.8rem;
     top: 42%;
@@ -148,10 +119,7 @@ input[type="email"] {
     height: 13rem;
   }
   .AddInfo {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     font-size: 1.2rem;
   }
   .AddInfo p {
@@ -159,4 +127,3 @@ input[type="email"] {
     margin-top: 15px;
   }
 }
-/*# sourceMappingURL=ContactForm.module.css.map */

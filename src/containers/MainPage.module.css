@@ -4,18 +4,27 @@
 }
 
 .InnerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 100vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
+  -webkit-transform: rotate(90deg) translateY(-100vh);
+          transform: rotate(90deg) translateY(-100vh);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
 }
 
 .OuterWrapper {
   width: 100vh;
   height: 100vw;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
+  -webkit-transform: rotate(-90deg) translateX(-100vh);
+          transform: rotate(-90deg) translateX(-100vh);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
   overflow-y: scroll;
   overflow-x: hidden;
   position: absolute;
@@ -24,13 +33,12 @@
 }
 
 .Layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
-
-@media screen and (min-width: 320px) and (max-width: 1000px) {
-  
-}
+/*# sourceMappingURL=MainPage.module.css.map */
