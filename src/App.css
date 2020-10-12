@@ -12,8 +12,8 @@ body {
 :root {
   --backgroundColor: #28293b;
   --mainColor: #69585f;
-  --secondaryColor: white;
-  --secondaryDark: #a98743;
+  --secondaryColor: #c26501;
+  --secondaryDark: #ba5d0a;
   --mainLightColor: white;
   --mainDarkColor: #2d3138;
   --mainTextColor: white;

@@ -117,3 +117,16 @@ h1 {
     object-fit: cover;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 10rem;
+  }
+  .HeaderTextMirror {
+    transform: scaleY(-1) translateY(-550px);
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    z-index: -1;
+  }
+}

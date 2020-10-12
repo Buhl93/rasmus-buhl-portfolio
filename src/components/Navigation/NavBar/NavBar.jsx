@@ -7,7 +7,7 @@ export default function NavBar() {
       <ul className={classes.Profiles}>
         <li>
           <a
-            href="https://www.linkedin.com/in/rasmus-buhl-jakobsen-686980104/"
+            href="https://www.linkedin.com/in/rasmus-buhl-jakobsen-686980104"
             target="_blank"
           >
             <i class="lab la-linkedin"></i>
@@ -20,14 +20,14 @@ export default function NavBar() {
         </li>
       </ul>
       <ul className={classes.NavItems}>
-        <li>
-          <a href="#MyWork">My Work</a>
+        <li className={classes.MyWork}>
+          <a  href="#MyWork">My Work</a>
         </li>
-        <li>
-          <a href="#ContactMe">Contact Me</a>
+        <li className={classes.ContactMe}>
+          <a  href="#ContactMe">Contact Me</a>
         </li>
-        <li>
-          <a href="#AboutMe">About Me</a>
+        <li className={classes.AboutMe}>
+          <a  href="#AboutMe">About Me</a>
         </li>
       </ul>
     </div>

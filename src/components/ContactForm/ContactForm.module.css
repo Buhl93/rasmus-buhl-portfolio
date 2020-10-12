@@ -159,4 +159,10 @@ input[type="email"] {
     margin-top: 15px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .Form {
+    margin-top: 11%;
+  }
+}
 /*# sourceMappingURL=ContactForm.module.css.map */

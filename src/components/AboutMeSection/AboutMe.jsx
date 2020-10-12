@@ -1,6 +1,7 @@
 import classes from "./AboutMe.module.css";
 import React from "react";
 import portrait from "../../assets/images/portrait3.jpg";
+import ResumeDK from "../../assets/Resume/CV.pdf";
 
 export default function AboutMe() {
   return (
@@ -11,7 +12,7 @@ export default function AboutMe() {
       </a>
       <h2 className={classes.HeadLine}>About Me</h2>
       <div className={classes.Layout}>
-        <img className={classes.Circle} src={portrait} alt="portrait" />
+        <img className={classes.Portrait} src={portrait} alt="portrait" />
         <p>
           Hi, I’m Rasmus. <br />
           <br /> I am a passionate web developer and designer currently located
@@ -22,6 +23,14 @@ export default function AboutMe() {
           contact me if you would like to know more or if you have any
           questions.
         </p>
+      </div>
+      <div className={classes.Resume}>
+        <a href="">
+          Get my Resume | English
+        </a>
+        <a href={ResumeDK} download>
+          Get my Resume | Danish
+        </a>
       </div>
     </div>
   );

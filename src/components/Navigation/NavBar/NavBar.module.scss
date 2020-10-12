@@ -52,6 +52,7 @@
   cursor: pointer;
   transition: transform 0.3s;
   list-style: none;
+  animation: decent 1.5s 4s ease-out;
 }
 
 .Profiles li:hover {
@@ -63,8 +64,39 @@
   color: white;
 }
 
+.MyWork {
+  animation: decent 1.5s 4.3s ease-out;
+  transform: translateY(0px);
+}
+.ContactMe {
+  animation: decent 1.5s 4.6s ease-out;
+  transform: translateY(0px);
+}
+.AboutMe {
+  animation: decent 1.5s 4.9s ease-out;
+  transform: translateY(0px);
+}
+
 @media screen and (min-width: 320px) and (max-width: 1000px) {
   .NavBar {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .NavBar {
+    width: 35%;
+  }
+}
+
+@keyframes decent {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
   }
 }

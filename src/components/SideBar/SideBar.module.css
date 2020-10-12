@@ -42,4 +42,10 @@
 .Links {
   margin-top: 40px;
 }
+
+@media screen and (min-width: 900px) {
+  .SideBar {
+    display: none;
+  }
+}
 /*# sourceMappingURL=SideBar.module.css.map */

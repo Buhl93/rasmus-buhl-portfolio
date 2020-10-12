@@ -47,4 +47,10 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+@media screen and (min-width: 1440px) {
+  .HeadLine {
+    top: 42%;
+  }
+}
 /*# sourceMappingURL=MyWork.module.css.map */
