@@ -45,8 +45,8 @@ h1 {
 }
 
 .HeaderTextMirror {
-  -webkit-transform: scaleY(-1) translateY(-350px);
-          transform: scaleY(-1) translateY(-350px);
+  -webkit-transform: scaleY(-1) translateY(-390px);
+          transform: scaleY(-1) translateY(-390px);
   position: absolute;
   top: 35%;
   left: 10%;

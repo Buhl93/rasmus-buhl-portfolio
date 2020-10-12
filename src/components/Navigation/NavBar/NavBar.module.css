@@ -89,22 +89,22 @@
 }
 
 .MyWork {
-  -webkit-animation: decent 1.5s 4.3s ease-out;
-          animation: decent 1.5s 4.3s ease-out;
+  -webkit-animation: decent 1.5s 5.5s ease-out;
+          animation: decent 1.5s 5.5s ease-out;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
 }
 
 .ContactMe {
-  -webkit-animation: decent 1.5s 4.6s ease-out;
-          animation: decent 1.5s 4.6s ease-out;
+  -webkit-animation: decent 1.5s 7s ease-out;
+          animation: decent 1.5s 7s ease-out;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
 }
 
 .AboutMe {
-  -webkit-animation: decent 1.5s 4.9s ease-out;
-          animation: decent 1.5s 4.9s ease-out;
+  -webkit-animation: decent 1.5s 8.5s ease-out;
+          animation: decent 1.5s 8.5s ease-out;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
 }
