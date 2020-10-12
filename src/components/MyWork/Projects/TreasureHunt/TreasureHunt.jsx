@@ -56,7 +56,7 @@ export default function BarberShop(props) {
               <div className={classes.Icon}>
                 <i class="las la-puzzle-piece"></i>
               </div>
-              Answers: <br /> - House (XXX) = 30
+              Answers to riddles: <br /> - House (XXX) = 30
               <br /> - Key (?) = En tryllenøgle
               <br /> - Dice = 189
             </p>
