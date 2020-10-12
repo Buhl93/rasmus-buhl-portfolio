@@ -12,8 +12,8 @@ body {
 :root {
   --backgroundColor: #28293b;
   --mainColor: #69585f;
-  --secondaryColor: #c26501;
-  --secondaryDark: #ba5d0a;
+  --secondaryColor: white;
+  --secondaryDark: #a98743;
   --mainLightColor: white;
   --mainDarkColor: #2d3138;
   --mainTextColor: white;
@@ -28,5 +28,7 @@ body {
   --treasureHuntColor: #9c704e;
   --treasureHuntColor2: #633f2c;
   --treasureHuntColor3: #bc9d74;
+  --resumeColor: #8f4633;
+  --resumeColorDark: #683325;
 }
 /*# sourceMappingURL=App.css.map */

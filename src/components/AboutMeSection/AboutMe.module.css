@@ -48,13 +48,13 @@
   height: 300px;
   border-radius: 100%;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   overflow: hidden;
 }
 
 .Layout p {
   color: var(--mainTextColor);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .Resume {
@@ -70,7 +70,7 @@
 }
 
 .Resume :hover {
-  background-color: var(--secondaryDark);
+  background-color: var(--resumeColorDark);
   -webkit-transform: translateY(-4px);
           transform: translateY(-4px);
 }
@@ -78,7 +78,7 @@
 .Resume a {
   height: 55px;
   width: 270px;
-  background-color: var(--secondaryColor);
+  background-color: var(--resumeColor);
   border: none;
   border-radius: 8px;
   margin: 50px;
@@ -115,7 +115,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 2560px) {
   .Portrait {
     width: 400px;
     height: 400px;

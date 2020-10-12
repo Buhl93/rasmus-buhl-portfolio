@@ -1,6 +1,6 @@
 import classes from "./AboutMe.module.css";
 import React from "react";
-import portrait from "../../assets/images/portrait3.jpg";
+import portrait from "../../assets/images/profilbillede2.jpg";
 import ResumeDK from "../../assets/Resume/CV.pdf";
 
 export default function AboutMe() {
@@ -25,10 +25,7 @@ export default function AboutMe() {
         </p>
       </div>
       <div className={classes.Resume}>
-        <a href="">
-          Get my Resume | English
-        </a>
-        <a href={ResumeDK} download>
+                <a href={ResumeDK} download>
           Get my Resume | Danish
         </a>
       </div>

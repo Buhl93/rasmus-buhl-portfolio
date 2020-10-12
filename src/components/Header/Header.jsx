@@ -1,5 +1,6 @@
 import React from "react";
 import BG from "../../assets/images/BG.jpg";
+import Rasmusbuhllogo from "../../assets/images/Rasmusbuhllogo.svg";
 
 import classes from "./Header.module.css";
 
@@ -15,6 +16,7 @@ export default function Header() {
       </div>
       <div className={classes.HeaderTextMirror}>
         <h1 className={classes.NameMirror}>Rasmus Buhl</h1>
+
         <h2 className={classes.TagMirror}>
           Web Developer <span>&</span> Designer
         </h2>
@@ -22,6 +24,3 @@ export default function Header() {
     </div>
   );
 }
-/* Mirror Effect
-
-*/
