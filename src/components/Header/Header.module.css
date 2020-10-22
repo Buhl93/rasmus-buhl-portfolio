@@ -76,6 +76,36 @@ h1 {
           animation: ascent 3s ease-out forwards;
 }
 
+.ScrollIndicator {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-animation: scrollHide 1.3s 6s forwards;
+          animation: scrollHide 1.3s 6s forwards;
+}
+
+.OuterScroll {
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+.InnerScroll {
+  position: relative;
+  top: 60%;
+  left: 50%;
+  width: 8px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: white;
+  -webkit-animation: scroll 1.3s infinite;
+          animation: scroll 1.3s infinite;
+  z-index: -1;
+}
+
 @-webkit-keyframes decent {
   from {
     -webkit-transform: translateY(-70px);
@@ -125,6 +155,50 @@ h1 {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
     opacity: 0.3;
+  }
+}
+
+@-webkit-keyframes scroll {
+  from {
+    -webkit-transform: translateY(-22px) translate(-50%);
+            transform: translateY(-22px) translate(-50%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(0%) translate(-50%);
+            transform: translateY(0%) translate(-50%);
+    opacity: 0;
+  }
+}
+
+@keyframes scroll {
+  from {
+    -webkit-transform: translateY(-22px) translate(-50%);
+            transform: translateY(-22px) translate(-50%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(0%) translate(-50%);
+            transform: translateY(0%) translate(-50%);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes scrollHide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes scrollHide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 

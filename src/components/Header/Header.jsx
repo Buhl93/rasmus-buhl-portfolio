@@ -13,6 +13,7 @@ export default function Header() {
         <h2 className={classes.Tag}>
           Web Developer <span>&</span> Designer
         </h2>
+        
       </div>
       <div className={classes.HeaderTextMirror}>
         <h1 className={classes.NameMirror}>Rasmus Buhl</h1>
@@ -21,6 +22,12 @@ export default function Header() {
           Web Developer <span>&</span> Designer
         </h2>
       </div>
+      <div className={classes.ScrollIndicator}>
+        <div className={classes.OuterScroll}>
+          <div className={classes.InnerScroll}></div>
+        </div>
+      </div>
+      
     </div>
   );
 }

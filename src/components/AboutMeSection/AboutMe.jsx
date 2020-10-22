@@ -19,7 +19,7 @@ export default function AboutMe() {
           in Copenhagen, Denmark. <br />
           <br /> I focus on creating creative designs and thought through user
           experiences. <br />
-          <br /> Feel free to take a look at some of my projects and please
+          <br /> Feel free to take a look at my projects and
           contact me if you would like to know more or if you have any
           questions.
         </p>

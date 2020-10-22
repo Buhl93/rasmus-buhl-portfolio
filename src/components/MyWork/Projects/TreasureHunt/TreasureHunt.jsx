@@ -56,6 +56,7 @@ export default function BarberShop(props) {
               <div className={classes.Icon}>
                 <i class="las la-puzzle-piece"></i>
               </div>
+              My goal was to create a one-page feeling website, without the use of any frameworks, which I think I have succeeded with.<br /><br />
               Answers to riddles: <br /> - House (XXX) = 30
               <br /> - Key (?) = En tryllenøgle
               <br /> - Dice = 189
