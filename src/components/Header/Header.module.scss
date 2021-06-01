@@ -73,7 +73,7 @@ h1 {
   bottom: 2%;
   left: 50%;
   transform: translate(-50%);
-  animation: scrollHide 1.3s 6s forwards;
+  animation: scrollHide 1.3s 6s ease-out forwards;
 }
 
 .OuterScroll {

@@ -5,7 +5,6 @@ import MyWork from "../components/MyWork/MyWork";
 import NavBar from "../components/Navigation/NavBar/NavBar";
 import ContactForm from "../components/ContactForm/ContactForm";
 import AboutMe from "../components/AboutMeSection/AboutMe";
-import ContactLabels from "../components/ContactLabels/ContactLabels";
 import classes from "./MainPage.module.css";
 import SideBarToggle from "../components/SideBar/SideBarToggle/SideBarToggle";
 import SideBar from '../components/SideBar/SideBar';
@@ -33,12 +32,13 @@ export default class MainPage extends Component {
               <AboutMe />
             </div>
           </div>
-        </div>
+        </div>  
         <Header />
         <NavBar />
         <SideBarToggle sideBarToggle={this.sideBarToggleHandler}/>
         <SideBar sideBarOpen={this.state.SideBarOpen}/>
         <Backdrop sideBarOpen={this.state.SideBarOpen} toggle={this.sideBarToggleHandler}/>
+        
       </>
     );
   }
