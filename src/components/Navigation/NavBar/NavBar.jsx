@@ -27,7 +27,7 @@ export default function NavBar() {
           <a  href="#ContactMe">Contact Me</a>
         </li>
         <li className={classes.AboutMe}>
-          <a  href="#AboutMe">About e</a>
+          <a  href="#AboutMe">About Me</a>
         </li>
       </ul>
     </div>
