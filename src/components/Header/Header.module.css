@@ -51,6 +51,7 @@ h1 {
   top: 35%;
   left: 10%;
   z-index: -1;
+  display: none;
 }
 
 .TagMirror {

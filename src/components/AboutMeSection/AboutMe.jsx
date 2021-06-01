@@ -24,11 +24,19 @@ export default function AboutMe() {
           questions.
         </p>
       </div>
-      <div className={classes.Resume}>
-                <a href={ResumeDK} download>
-          Get my Resume | Danish
-        </a>
+      <div className={classes.ResumeButtons}>
+        <button className={classes.ResumeButton}>
+          <a href={ResumeDK} download>
+            Get my Resume | Danish
+          </a>
+        </button>
+        <button className={classes.ResumeButton}>
+          <a href={ResumeDK} download>
+            Get my Resume | English
+          </a>
+        </button>
       </div>
+      
     </div>
   );
 }

@@ -10,7 +10,7 @@
 }
 
 .LeftSideLine {
-  width: 5px;
+  width: 3px;
   height: 100vh;
   background-color: var(--mainTextColor);
   position: absolute;
@@ -19,7 +19,7 @@
 }
 
 .RightSideLine {
-  width: 5px;
+  width: 3px;
   height: 100vh;
   background-color: var(--mainTextColor);
   position: absolute;
