@@ -1,8 +1,8 @@
 .Card {
   margin: 100px;
   margin-top: 20px;
-  height: 700px;
-  width: 1000px;
+  height: 66vh;
+  width: 45vw;
   background-color: var(--yahtzeeColor);
   -webkit-box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.4);
@@ -33,7 +33,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .Scrollabe {
@@ -73,12 +73,14 @@
 }
 
 .Image {
-  height: 500px;
+  height: 63%;
   width: 100%;
   cursor: pointer;
   border-radius: 10px 10px 0 0;
   -webkit-box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .Info {
@@ -124,8 +126,8 @@
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
   border-radius: 0 0 0 10px;
-  -webkit-box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.3);
   opacity: 1;
 }
 

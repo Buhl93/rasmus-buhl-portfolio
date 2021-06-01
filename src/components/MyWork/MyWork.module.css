@@ -32,11 +32,11 @@
   height: -moz-fit-content;
   height: fit-content;
   width: 250px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   -webkit-transform: rotate(-90deg) scale(3.5);
           transform: rotate(-90deg) scale(3.5);
   position: relative;
-  top: 36%;
+  top: 25%;
   left: 0;
   color: var(--mainTextColor);
   font-family: "Cabin Sketch", cursive;
@@ -51,6 +51,7 @@
 @media screen and (min-width: 2560px) {
   .HeadLine {
     top: 42%;
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=MyWork.module.css.map */
