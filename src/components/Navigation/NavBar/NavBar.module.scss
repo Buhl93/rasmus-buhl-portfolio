@@ -4,6 +4,8 @@
   right: 40px;
   width: 40%;
   display: flex;
+  font-family: 'PT Sans', sans-serif;
+  color: var(--mainTextColor);
 }
 
 .NavItems {
@@ -18,9 +20,9 @@
 }
 
 .NavItems li {
-  font-size: 2.3rem;
+  font-size: 1.4rem;
   z-index: 10;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   transition: transform 0.3s;
   list-style: none;
@@ -52,7 +54,6 @@
   cursor: pointer;
   transition: transform 0.3s;
   list-style: none;
-  animation: decent 1.5s 4s ease-out;
 }
 
 .Profiles li:hover {
@@ -65,15 +66,12 @@
 }
 
 .MyWork {
-  animation: decent 1.5s 5.5s ease-out;
   transform: translateY(0px);
 }
 .ContactMe {
-  animation: decent 1.5s 7s ease-out;
   transform: translateY(0px);
 }
 .AboutMe {
-  animation: decent 1.5s 8.5s ease-out;
   transform: translateY(0px);
 }
 
@@ -89,14 +87,4 @@
   }
 }
 
-@keyframes decent {
-  from {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  to {
-    transform: scale(1);
-  }
-}
+

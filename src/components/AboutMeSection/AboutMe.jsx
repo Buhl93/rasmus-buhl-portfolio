@@ -1,7 +1,8 @@
 import classes from "./AboutMe.module.css";
 import React from "react";
 import portrait from "../../assets/images/profilbillede2.jpg";
-import ResumeDK from "../../assets/Resume/CV.pdf";
+import ResumeDA from "../../assets/Resume/ResumeDA.pdf";
+import ResumeEN from "../../assets/Resume/ResumeEN.pdf";
 
 export default function AboutMe() {
   return (
@@ -24,11 +25,19 @@ export default function AboutMe() {
           questions.
         </p>
       </div>
-      <div className={classes.Resume}>
-                <a href={ResumeDK} download>
-          Get my Resume | Danish
-        </a>
+      <div className={classes.ResumeButtons}>
+        <button className={classes.ResumeButton}>
+          <a href={ResumeDA} download>
+            Get my Resume | Danish
+          </a>
+        </button>
+        <button className={classes.ResumeButton}>
+          <a href={ResumeEN} download>
+            Get my Resume | English
+          </a>
+        </button>
       </div>
+      
     </div>
   );
 }

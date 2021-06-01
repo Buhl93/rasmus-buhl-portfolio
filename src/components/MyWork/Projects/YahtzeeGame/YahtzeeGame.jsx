@@ -81,7 +81,7 @@ export default function YahtzeeGame(props) {
             Code
           </a>
           <a href="https://clever-mcnulty-472ab7.netlify.app/" target="_blank">
-            Site
+            Website
           </a>
         </div>
       </div>

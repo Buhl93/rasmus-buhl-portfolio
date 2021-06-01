@@ -70,7 +70,7 @@ export default function BarberShop(props) {
             Code
           </a>
           <a href="https://epic-wing-92008b.netlify.app" target="_blank">
-            Site
+            Website
           </a>
         </div>
       </div>

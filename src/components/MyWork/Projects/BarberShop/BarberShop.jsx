@@ -73,7 +73,7 @@ export default function BarberShop(props) {
             Code
           </a>
           <a href="https://dreamy-lovelace-5f81d8.netlify.app" target="_blank">
-            Site
+            Website
           </a>
         </div>
       </div>

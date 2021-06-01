@@ -6,7 +6,7 @@
 }
 
 .LeftSideLine {
-  width: 5px;
+  width: 3px;
   height: 100vh;
   background-color: var(--mainTextColor);
   position: absolute;
@@ -17,10 +17,10 @@
 .HeadLine {
   height: fit-content;
   width: 250px;
-  font-size: 3rem;
+  font-size: 2.3rem;
   transform: rotate(-90deg) scale(3.5);
   position: relative;
-  top: 36%;
+  top: 25%;
   left: 0;
   color: var(--mainTextColor);
   font-family: "Cabin Sketch", cursive;
@@ -29,14 +29,15 @@
 .Layout {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: auto;
+  width: 60%;
+  margin: 0 25%;
   margin-top: 7%;
+
 }
 
 .Portrait {
-  width: 300px;
-  height: 300px;
+  width: 13rem;
+  height: 13rem;
   border-radius: 100%;
   margin: auto;
   margin-bottom: 0px;
@@ -45,37 +46,44 @@
 
 .Layout p {
   color: var(--mainTextColor);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-.Resume {
+.ResumeButtons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Resume :hover {
+.ResumeButtons :hover {
   background-color: var(--resumeColorDark);
   transform: translateY(-4px);
 }
 
-.Resume a {
-  height: 56px;
-  width: 270px;
-  background-color: var(--resumeColor);
-  border: none;
-  border-radius: 8px;
-  margin: 50px;
-  font-size: 1.3rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
-  color: var(--mainTextColor);
+.ResumeButton {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.3s;
+  background-color: var(--resumeColor);
+  border: none;
+  border-radius: 8px;
+  margin:  1.5rem 1rem;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  
 }
+
+.ResumeButton :hover {
+  transform: translateY(0px);
+}
+
+
+.ResumeButton a {
+  text-decoration: none;
+  color: var(--mainTextColor);
+  font-size: 1rem;
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 1000px) {
   .AboutMeContainer {

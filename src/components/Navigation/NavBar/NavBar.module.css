@@ -6,6 +6,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: 'PT Sans', sans-serif;
+  color: var(--mainTextColor);
 }
 
 .NavItems {
@@ -26,9 +28,9 @@
 }
 
 .NavItems li {
-  font-size: 2.3rem;
+  font-size: 1.4rem;
   z-index: 10;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
@@ -74,8 +76,6 @@
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
   list-style: none;
-  -webkit-animation: decent 1.5s 4s ease-out;
-          animation: decent 1.5s 4s ease-out;
 }
 
 .Profiles li:hover {
@@ -89,22 +89,16 @@
 }
 
 .MyWork {
-  -webkit-animation: decent 1.5s 5.5s ease-out;
-          animation: decent 1.5s 5.5s ease-out;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
 }
 
 .ContactMe {
-  -webkit-animation: decent 1.5s 7s ease-out;
-          animation: decent 1.5s 7s ease-out;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
 }
 
 .AboutMe {
-  -webkit-animation: decent 1.5s 8.5s ease-out;
-          animation: decent 1.5s 8.5s ease-out;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
 }
@@ -118,36 +112,6 @@
 @media screen and (min-width: 2560px) {
   .NavBar {
     width: 35%;
-  }
-}
-
-@-webkit-keyframes decent {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-@keyframes decent {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
   }
 }
 /*# sourceMappingURL=NavBar.module.css.map */

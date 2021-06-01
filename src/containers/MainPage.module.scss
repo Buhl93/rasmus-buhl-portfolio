@@ -1,34 +1,33 @@
 .Slider {
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  .InnerWrapper {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-  }
-  
-  .OuterWrapper {
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    position: absolute;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-  
-  .Layout {
-    display: flex;
-  }
-  
-  ::-webkit-scrollbar {
-    display: none;
-  }
-  
-  
+  width: 100vw;
+  height: 100vh;
+}
+
+.InnerWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.OuterWrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.Layout {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
