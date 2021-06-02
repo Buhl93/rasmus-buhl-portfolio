@@ -11,7 +11,7 @@ export default function Ecommerce(props) {
 
       <div className={classes.Card}>
         <div className={classes.Scrollabe}>
-          <a href="https://clever-mcnulty-472ab7.netlify.app/" target="_blank">
+          <a href="https://upstir-ecommerce.web.app/" target="_blank">
             <img src={JiggerboxImg} alt="Yatze" className={classes.Image} />
           </a>
 
