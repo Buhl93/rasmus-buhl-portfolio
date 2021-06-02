@@ -33,6 +33,7 @@ export default function YahtzeeGame(props) {
           <p className={classes.Info}>Scroll for more info</p>
           <div className={classes.TextArea}>
             <p>
+            <span className={classes.Developed}>Developed 2020</span>
               <div className={classes.Icon}>
                 <i className="las la-lightbulb"></i>
               </div>

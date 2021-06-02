@@ -37,6 +37,7 @@ export default function BarberShop(props) {
           <p className={classes.Info}>Scroll for more info</p>
           <div className={classes.TextArea}>
             <p>
+              <span className={classes.Developed}>Developed 2019</span>
               <div className={classes.Icon}>
                 <i class="las la-skull"></i>
               </div>

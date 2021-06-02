@@ -3,7 +3,7 @@
   margin-top: 20px;
   height: 68vh;
   width: 45vw;
-  background-color: var(--treasureHuntColor2);
+  background-color: var(--barberShopColor);
   -webkit-box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.4);
   -webkit-transition: -webkit-transform 0.3s;
@@ -16,7 +16,7 @@
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
   border-radius: 10px;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Bree Serif", serif;
 }
 
 .Layout {
@@ -49,7 +49,7 @@
   margin-top: 30px;
   border: 1px solid var(--mainTextColor);
   padding: 20px 40px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .HeadLine {
@@ -59,17 +59,17 @@
   cursor: default;
 }
 
-.Icon {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
 .Card:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   -webkit-animation: shadowExpand 0.3s forwards;
           animation: shadowExpand 0.3s forwards;
+}
+
+.Icon {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 .Image {
@@ -105,7 +105,7 @@
   font-size: 1.5rem;
   cursor: pointer;
   border: none;
-  background-color: var(--treasureHuntColor);
+  background-color: var(--barberShopColor2);
   color: var(--mainTextColor);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +129,7 @@
 
 .GitWebButtons a:nth-child(2) {
   right: 0;
-  background-color: var(--treasureHuntColor3);
+  background-color: var(--barberShopColor3);
   border-radius: 0 0 10px 0;
 }
 
@@ -177,6 +177,10 @@
 
 .SpaceBottom {
   height: 100px;
+}
+
+.Developed {
+  text-align: center;
 }
 
 @-webkit-keyframes shadowExpand {
@@ -240,4 +244,4 @@
     font-size: 1.3rem;
   }
 }
-/*# sourceMappingURL=TreasureHunt.module.css.map */
+/*# sourceMappingURL=Ecommerce.module.css.map */

@@ -5,6 +5,7 @@ import BurgerImg from "../../assets/images/Burger.jpg";
 import YahtzeeGame from "./Projects/YahtzeeGame/YahtzeeGame";
 import BarberShop from "./Projects/BarberShop/BarberShop";
 import TreasureHunt from "./Projects/TreasureHunt/TreasureHunt";
+import Ecommerce from './Projects/Ecommerce/Ecommerce';
 
 import classes from "./MyWork.module.css";
 
@@ -17,9 +18,8 @@ export default function MyWork(props) {
           <div id="MyWork"></div>
         </a>
         <h2 className={classes.HeadLine}>My Work</h2>
-
+        <Ecommerce />
         <YahtzeeGame />
-        <BarberShop />
         <TreasureHunt />
       </div>
       <div className={classes.RightSideLine}></div>
