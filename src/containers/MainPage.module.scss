@@ -27,6 +27,10 @@
   display: flex;
 }
 
+.MobileView {
+  display: none;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -34,6 +38,10 @@
 @media screen and (max-width: 600px) {
   .WebView {
     display: none;
+  }
+
+  .MobileView {
+    display: inline;
   }
 }
 

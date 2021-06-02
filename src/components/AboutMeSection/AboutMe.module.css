@@ -70,7 +70,7 @@
 }
 
 .ResumeButtons :hover {
-  background-color: var(--resumeColorDark);
+  background-color: var(--hoverResumeColor);
   -webkit-transform: translateY(-4px);
           transform: translateY(-4px);
 }
