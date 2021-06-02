@@ -37,31 +37,23 @@ export default function YahtzeeGame(props) {
               <div className={classes.Icon}>
                 <i className="las la-lightbulb"></i>
               </div>
-              This game was created since my girlfriend and I love to compete
-              over a game of Yahtzee. This inspired me to create a version we
-              could easily play everywhere without the use of dice. This is also
-              why it is primarily designed to be used on a phone. <br />
+              This game was created so that one could compete
+              over a game of Yahtzee, without the need og dice, any time anywhere. 
+              <br />
               <br />
               <div className={classes.Icon}>
                 <i class="las la-cogs"></i>
               </div>
-              Logic for the scoreboard was created in
-              order for it to work as seamlessly as possible. I reckoned that
-              manually typing in scores was cumbersome, so I made it autodetect
-              what has been rolled.
+              The scoreboard auto detects the dice that has been saved.
+              I reckoned that manually typing in scores was cumbersome..
               <br />
               <br />
               <div className={classes.Icon}>
                 <i class="las la-dice"></i>
               </div>
-              The user simply has to click/tap on the dice one wants to save, and
-              when done, the user just clicks/taps the box in the scoreborad
+              The user simply has to click/tap on the dice one wants to save, after which the user clicks/taps the box in the scoreboard
               that should be scored.
               <br />
-              <br />
-              It is also possible to delete an input if misplaced. As is it
-              possible to cross a box if no score is available from the dice
-              rolled. <br />
               <br />
               <div className={classes.Icon}>
                 <i class="las la-hourglass-half"></i>
@@ -71,7 +63,7 @@ export default function YahtzeeGame(props) {
               - Tutorial section.
               <br />
               - Game rules section.
-              <br />- Super Yahtzee scoreboard modifications.
+              <br />- Super Yahtzee scoreboard.
             </p>
           </div>
           <div className={classes.SpaceBottom}></div>

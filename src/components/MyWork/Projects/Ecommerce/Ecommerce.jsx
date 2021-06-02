@@ -38,7 +38,7 @@ export default function Ecommerce(props) {
               <div className={classes.Icon}>
                 <i className="las la-store"></i>
               </div>
-              Jiggerbox is an full stack ecommerce selling cocktail boxes. It is build with React and 
+              Jiggerbox is a full stack ecommerce website selling cocktail boxes. It is build with React and 
               Redux for state management with Thunk for asynchronous code and React Router for routing. Firebase is used for backend. 
               <br />
               <br />

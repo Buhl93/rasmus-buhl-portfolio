@@ -41,23 +41,22 @@ export default function BarberShop(props) {
               <div className={classes.Icon}>
                 <i class="las la-skull"></i>
               </div>
-              This was built as part of a birthday present. My brother and I
-              love escape rooms, mystery and puzzles, so I decided to create my
-              own escape room / treasure hunt for him and his girlfriend. <br />
+              I love escape rooms and puzzles, so I decided to create my
+              own escape room / treasure hunt. <br />
               <br />
               <div className={classes.Icon}>
                 <i class="las la-map"></i>
               </div>
-              This site served as a tool where they would input the answers to
-              different riddles layed out in the real world. Whitch means that
-              it only works in relation to those riddles I made. The website is
-              simple - inputting the right answer and a message appears, leading
+              In combination with real physical puzzles, this website served as a tool for inputting answers.
+              The website is quite simple - inputting the right answer and a message appears, leading
               on to the next part of the treasure hunt. <br />
               <br />
               <div className={classes.Icon}>
                 <i class="las la-puzzle-piece"></i>
               </div>
-              My goal was to create a one-page feeling website, without the use of any frameworks, which I think I have succeeded with.<br /><br />
+              The goal was to create a one-page feeling website, without the use of frameworks.
+              <br />
+              <br />
               Answers to riddles: <br /> - House (XXX) = 30
               <br /> - Key (?) = En tryllenøgle
               <br /> - Dice = 189
